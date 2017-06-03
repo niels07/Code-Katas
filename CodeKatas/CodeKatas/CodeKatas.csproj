@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata\DontGiveMeFive.cs" />
+    <Compile Include="Kata\FizzBuzz.cs" />
     <Compile Include="Kata\IKata.cs" />
     <Compile Include="Kata\VowelCount.cs" />
     <Compile Include="Program.cs" />

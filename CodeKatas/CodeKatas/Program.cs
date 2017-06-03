@@ -9,7 +9,6 @@ namespace CodeKatas
         private static IKata GetKata()
         {
             Console.Write("Name of kata to run: ");
-
             string name = Console.ReadLine().Replace(Environment.NewLine, "");           
             Type t = Type.GetType("CodeKatas.Kata." + name);
             return t != null ? (IKata)Activator.CreateInstance(t) : null;          
