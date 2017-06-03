@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kata\DontGiveMeFive.cs" />
+    <Compile Include="Kata\ExesandOhs.cs" />
     <Compile Include="Kata\FizzBuzz.cs" />
     <Compile Include="Kata\HighAndLow.cs" />
     <Compile Include="Kata\IKata.cs" />
